@@ -8,17 +8,15 @@ Gem::Specification.new do |spec|
   spec.authors = ["Simon Chiu"]
   spec.email = ["simon@furvur.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "A simple gem to Dockerize your Ruby on Rails project's development environment."
+  spec.description = "Dockerize will add the necessary Docker configuration to your Ruby on Rails project Docker development environment."
+  spec.homepage = "https://railstest.com/dockerize"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
-
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/railstest-com/dockerize"
+  spec.metadata["changelog_uri"] = "https://github.com/railstest-com/dockerize/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
