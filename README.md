@@ -22,7 +22,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In a new Rails app, run:
+
+```
+dockerize init
+```
+
+This will create the following files for your Rails project:
+
+- docker-compose.yml
+- Dockerfile
+- Procfile.dev
+
+You will then be able to run:
+
+`docker-compose up` to start your app.
+
+`docker-compose run app bash` to enter a Docker container for your development environment.
+
+`docker-compose run app bin/rails test...` or any other command from your host system.
 
 ## Development
 
@@ -32,7 +50,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/dockerize. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/dockerize/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/railstest-com/dockerize. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/railstest-com/dockerize/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -40,4 +58,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Dockerize project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/dockerize/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the Dockerize project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/railstest-com/dockerize/blob/main/CODE_OF_CONDUCT.md).
